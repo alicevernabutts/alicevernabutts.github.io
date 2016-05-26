@@ -1,6 +1,7 @@
 body{
+	
 	text-align:center;
-	background:src("images/unit-3-image.jpg");
+	background: url('images/unit-3-image.jpg');
 	background-size: cover;
 	background-color:black;
 	color:#c7d7c3;
