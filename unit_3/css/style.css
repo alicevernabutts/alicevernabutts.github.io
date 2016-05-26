@@ -1,0 +1,15 @@
+body{
+	text-align:center;
+	background:src("images/unit-3-image.jpg");
+	background-size: cover;
+	background-color:black;
+	color:#c7d7c3;
+	font-family: "Helvetica Thin";
+}
+#slogan {
+	font-style: italic;
+}
+
+p{
+	font-size: 14px:;
+}
