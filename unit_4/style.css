@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Sintony:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter|Six+Caps|Abril+Fatface|Raleway:500,300|Alegreya:700,400);
+body{
+	
+	text-align:center;
+	background: url('images/unit-3-image.jpg');
+	background-size: cover;
+	background-position: center;
+	background-color:black;
+	background-width: 1280px;
+	color:#c7d7c3;
+	font-family: 'Sintony', sans-serif;
+	margin:1em auto;
+
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight:200;
+	letter-spacing: 1px;
+	margin-top: 60px;
+}
+#slogan {
+	font-family: 'Abril Fatface', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+hr{
+	border:none;
+	height:1px;
+	background-color:#c7d7c3; 
+	width:520px;
+}
+
+p{
+	font-size: 1em;
+	font-family: 'Raleway', serif; 
+	font-weight: 400;
+	width:600px;
+	margin:2em auto;
+	margin-bottom: 100px;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+}
+
+img{
+	width: 200px;
+	margin:1em auto;
+}
