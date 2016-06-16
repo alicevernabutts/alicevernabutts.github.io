@@ -22,17 +22,17 @@
 #left {
     background-color: #E582A2;
     border: 1px black solid;
-    padding: 20px;
+    padding: 10px;
     float: left;
-    width: 20%;
+    width: 45%;
 }
 
 #right {
     background-color: #E55B88;
     border: 1px black solid;
-    padding: 20px;
+    padding: 10px;
     float: right;   
-    width: 50%;
+    width: 45%;
 }
 
 #topheader {
