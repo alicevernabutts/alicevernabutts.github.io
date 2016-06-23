@@ -5,7 +5,7 @@ body{
 	text-align:center;
 	background: url('images/avb website background image B.jpg');
 	background-size: cover;
-	background-size: 1080px auto;
+	background-size: 100%;
 	background-position: top;
 	background-color:black;
 	background-repeat: no-repeat;
@@ -50,7 +50,7 @@ h1{
 }
 
 div{
-	background-color: #3D3E42;
+	background-color: #EDE8DF;
 }
 
 img {  
@@ -61,11 +61,15 @@ img {
 
 #bio{
 	background-color: #FE7F39;
-	padding: 3em;
+	padding: .9em auto;
+	float: right;
+	width: 50%;
+	height: 25em auto;
+
 }
 
 p{
-	font-size: 1em;
+	font-size: .9em;
 	line-height: 1.5em;
 	padding: 0 9em;
 	text-decoration: black;
@@ -73,7 +77,10 @@ p{
 
 #services{
 	background-color: #038FA3;
-	padding: 3em;
+	padding: 1em auto;
+	float: left;
+	width: 50%;
+	height: 25em auto;
 }
 
 li{
@@ -82,5 +89,10 @@ li{
 	text-align: center;
 	padding-right: 2.5em;
 	list-style-position: inside;
+}
+
+media only screen and (max-width:1080px) {
+	wrapper
+
 }
 
