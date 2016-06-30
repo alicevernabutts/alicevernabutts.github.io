@@ -1,19 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Sintony:400,700);
 @import url(https://fonts.googleapis.com/css?family=Bitter|Six+Caps|Abril+Fatface|Raleway:500,300|Alegreya:700,400);
+* { margin:0; padding:0; box-sizing:border-box;}
 body{
-	
 	text-align:center;
-	background-image: url('../images/avb_website_background_image_B.jpg');
-	background-size: cover;
-	background-size: 100% auto;
-	background-position: top;
-	background-color:black;
-	background-repeat: no-repeat;
+	/* background-image: url('../images/avb_website_background_image_B.jpg'); */
+	/* background-size: cover; */
+	/* background-size: 100% auto; */
+	/* background-position: top; */
+	/* background-color:black; */
+	/* background-repeat: no-repeat; */
 	color: white;
 	font-family: 'Sintony', sans-serif;
 	font-size: 16px;
 }
-
+header {
+	float:left;
+	width:100%;
+}
+section#nametitletag {
+	background-image: url('../images/avb_website_background_image_B.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20em 0 0;
+	height: 90vh;
+}
 #navone {
 	display: float;
 }
@@ -53,14 +63,13 @@ h1{
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: .1em;
-	padding-bottom: 640px;
 }
 
-div{
+main{
 	background-color: #EDE8DF;
 }
 
-img {  
+#portfolio img {  
 	height: 12em;
 	display: inline;
 	margin: 1.5em; 
@@ -78,7 +87,6 @@ li{
 	font-size: 1em;
 	line-height: 1.5em;
 	text-align: center;
-	padding-right: 2.5em;
 	list-style-position: inside;
 }
 
@@ -97,56 +105,40 @@ p{
 	text-decoration: black;
 }
 
-#clientsheet{
+#clientsheet img{
 	width: 100%;
 }
 
-#footer{
+footer{
 	font-size: .75em;
 	background-color: #646464;
 	padding: 1em;
-	float: center;
-	width: 100%;
-	height: 25em auto;
 	clear: both;
 
 }
-
-@media only screen and (max-width: 768px) 
-	{ 
-	body { font-size: 12px; 
-	}
-
-}
-
-@media only screen and (max-width: 1097px) 
-	{ 
+@media only screen and (max-width: 1097px) { 
 	#bio, #services { 
 		float:none;
 		padding: 1em; 
 		width: 100%;
 	}
 }
+@media only screen and (max-width: 834px) { 
+		#nametitletag {
+			background-image: url('../images/avb_website_background_image_B.jpg');
+		}
+} 
+@media only screen and (max-width: 768px) { 
+	body { 
+		font-size: 12px; 
+	}
 
-@media only screen and (max-width: 500px) 
-	{ 
+}
+@media only screen and (max-width: 500px) { 
 	#navone { 
 		float:none;
 	}
 }
-
-@media only screen and (max-width: 500px) 
-	{ 
-	#navone { 
-		float:none;
-	}
-}
-
-@media only screen and (min-width: 834px) 
-	{ 
-		background-image: url('../images/avb_website_background_image_B.jpg')
-	width: 820px;
-	} 
 
 
 
